@@ -1,0 +1,4 @@
+Alice has a cat
+Tom has a dog
+Another brick in the wall.
+and yet another line.
