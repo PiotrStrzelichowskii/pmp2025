@@ -20,6 +20,7 @@ class MyWindow(mwnd, ui):
   @pyqtSlot()
   def on_pbOther_clicked(self):
     print('Other button clicked')
+    self.cbSecond.toggle()
 
   def on_pbThird_pressed(self):
     print('Third button pressed')
