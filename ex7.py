@@ -44,6 +44,31 @@ class MyWindow(mwnd, ui):
   def on_cb3_toggled(self, var):
       print('Checkbox cb3 toggled', var)
 
+  def on_rb1_toggled(self, var):
+     print('Radio button rb1:', var)
+
+  def on_rb2_toggled(self, var):
+    print('Radio button rb2:', var)
+
+  def on_rb3_toggled(self, var):
+     print('Radio button rb3:', var)
+
+  def on_rb4_toggled(self, var):
+     print('Radio button rb4:', var)
+
+  def on_pb3_released(self):
+    print('Button pb3 released')
+    if self.rb1.isChecked():
+        self.rb2.setChecked(True)
+    elif self.rb2.isChecked():
+        self.rb1.setChecked(True)
+    
+    if self.rb3.isChecked():
+        self.rb4.setChecked(True)
+    elif self.rb4.isChecked():
+        self.rb3.setChecked(True)
+
+
 if __name__ == '__main__':
     app = QApplication([])
     wnd = MyWindow()

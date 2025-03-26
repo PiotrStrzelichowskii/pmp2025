@@ -91,7 +91,7 @@
     <string>Check</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="gb1">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -103,7 +103,7 @@
    <property name="title">
     <string/>
    </property>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="rb1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -116,7 +116,7 @@
      <string>RadioButton</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="rb2">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -130,19 +130,19 @@
     </property>
    </widget>
   </widget>
-  <widget class="QGroupBox" name="groupBox_2">
+  <widget class="QGroupBox" name="gb2">
    <property name="geometry">
     <rect>
      <x>330</x>
-     <y>210</y>
+     <y>200</y>
      <width>120</width>
      <height>80</height>
     </rect>
    </property>
    <property name="title">
-    <string>GroupBox</string>
+    <string/>
    </property>
-   <widget class="QRadioButton" name="radioButton_3">
+   <widget class="QRadioButton" name="rb3">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -155,7 +155,7 @@
      <string>RadioButton</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_4">
+   <widget class="QRadioButton" name="rb4">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -169,7 +169,7 @@
     </property>
    </widget>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pb3">
    <property name="geometry">
     <rect>
      <x>480</x>
@@ -179,7 +179,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Change</string>
    </property>
   </widget>
  </widget>
