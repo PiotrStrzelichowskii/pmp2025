@@ -11,7 +11,7 @@ def measuretime(funkob):
 
 
 def ourdecorator(funkob):
-  print('Inside decorator: ', funkob)
+  #print('Inside decorator: ', funkob)
   def insidedecor(*ia, **ib):
     print('Inside insidedecor: ', ia, ib)
     result = funkob(*ia, **ib)
@@ -40,10 +40,10 @@ def threefunk(a, b, c=0):
 def getsomething():
   return 10
 
-
-somefunc()
-otherfunk(9)
-twofunk(9, 8)
-threefunk(9, 8, c=7)
-ret = getsomething()
-print('Returned:', ret)
+if __name__ == '__main__':    
+  somefunc()
+  otherfunk(9)
+  twofunk(9, 8)
+  threefunk(9, 8, c=7)
+  ret = getsomething()
+  print('Returned:', ret)
